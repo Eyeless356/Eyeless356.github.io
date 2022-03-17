@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  <body>
+    <div class="container-page">
+      <header class="header-todolist">
+        <form class="form-todolist" action="">
+          <h1 class="title-todolist">Todo list</h1>
+          <span class="wrapper-todoinput">
+          <input class="input-todovalue"type="text" />
+          <button class="btn-todosubmit"></button>
+        </span>
+        </form>
+        <nav>
+          <div class="btn-all-wrapper">
+            <label><input class="checkbox-all"type="checkbox" name="" id="">전체 선택</label>
+            <label for="">전체 삭제
+            <button class="btn-clear-all" type="button"></button>
+            </label>
+        </div>
+        </nav>
+      </header>
+      <main class="main-todolist">
+        <ul class="list-todo">
+          <li class="ltems-todo">
+            <label class="item-label" for=""><input class="checkbox-todoitem" type="checkbox" name="" id="" />
+              <span class="text-todo">장보기</span></label>
+            <div>
+              <button class="btn-fixing" >수정하기</button>
+              <button class="btn-clearTodo"></button>
+            </div>
+          </li>
+          <li class="ltems-todo">
+            <label class="item-label" for="">
+              <input class="checkbox-todoitem" type="checkbox" name="" id="" >
+              <span class="text-todo">청소하기</span>
+            </label>
+            <div>
+              <button class="btn-fixing" >수정하기</button>
+              <button class="btn-clearTodo"></button>
+            </div>
+          </li>
+        </ul>
+      </main>
+    </div>
+
+
+    <script src="todo.js"">
+    </script>
+  </body>
+</html>
