@@ -1,0 +1,64 @@
+.dropdown__box {
+  position: relative;
+}
+.dropdown__list {
+  position: absolute;
+  width: 200px;
+  height: 114px;
+  right: 0px;
+  border: 1px solid #868b94;
+  padding: 24px;
+  margin: 0px;
+  background: #f8f9fa;
+  list-style: none;
+  border-radius: 5px;
+  display: none;
+  z-index: 1;
+}
+.dropdown__item + .dropdown__item {
+  margin-top: 24px;
+}
+.dropdown__item .google {
+  background: no-repeat
+    url(https://d1unjqcospf8gs.cloudfront.net/assets/home/base/header/google-play-c9ad0fc573cd01e2b982df5de6709a3d8d7cec8d9b58a5c08db7da0b92a32a75.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 15px;
+  height: 18px;
+  margin-right: 8px;
+}
+.dropdown__item .apple {
+  background: no-repeat
+    url(https://d1unjqcospf8gs.cloudfront.net/assets/home/base/header/apple-store-3a664174124650d63cae365bc55586fc5ff27b822b1b97788fc4af77d73d00c8.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 15px;
+  height: 18px;
+  margin-right: 8px;
+}
+.dropdown__item a {
+  color: #4d5159;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+}
+.dropdown__btn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+.dropdown__btn--img {
+  background: no-repeat url("../../img/arrow01.png");
+  background-size: contain;
+  padding: 10px;
+}
+.active {
+  display: block;
+}

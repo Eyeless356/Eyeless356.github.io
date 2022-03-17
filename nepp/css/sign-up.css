@@ -1,0 +1,35 @@
+@import url(./component/form.css);
+@import url(./component/footer.css);
+@import url(./component/input.css);
+@import url(./component/header.css);
+@import url(./component/general.css);
+@import url(./component/button.css);
+.title_form .sign-up {
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.loginbox-wrapper {
+  height: unset;
+  padding-bottom: 93px;
+  padding-top: 55px;
+}
+.sign-up_label {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.input-login {
+  margin-bottom: 20px;
+  height: 43px;
+  min-width: 431px;
+}
+.input-login.id {
+  margin-bottom: 3px;
+}
+.input-login.btn {
+  min-width: 431px;
+  font-size: 12px;
+}
+.btn-login {
+  width: 100%;
+}
